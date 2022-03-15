@@ -1,6 +1,7 @@
 {
     "env": {
         "browser": true,
+        "node": true,
         "es2021": true,
         "jest": true
     },
@@ -20,6 +21,12 @@
         "react"
     ],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "prettier/prettier": [
+        "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
     }
 }
